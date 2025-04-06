@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Spark a Story</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Spark a Story</h1>
+        <p>Empowering young writers to share their voices and unlock their creative potential.</p>
+    </header>
+
+    <section class="about">
+        <h2>About Us</h2>
+        <p>Spark a Story is a nonprofit initiative focused on helping young writers unleash their creativity through workshops, mentorship, and publishing opportunities.</p>
+    </section>
+
+    <section class="contact">
+        <h2>Contact Us</h2>
+        <p>Have questions? Want to get involved? Reach out to us at:</p>
+        <p>Email: <a href="mailto:info@sparkastory.org">info@sparkastory.org</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Spark a Story | All Rights Reserved</p>
+    </footer>
+</body>
+</html>
