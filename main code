@@ -1,31 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Spark a Story</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Spark a Story</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Arial, sans-serif;
+      background: #fdfdfd;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(135deg, #ff914d, #ffce73);
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      margin-top: 0.5rem;
+      font-size: 1.2rem;
+    }
+    nav {
+      background: #333;
+      color: white;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding: 0.75rem;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      padding: 3rem 1rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    .cta {
+      text-align: center;
+      background: #fff5e6;
+      border-radius: 12px;
+      padding: 2rem;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+    .cta h2 {
+      margin-top: 0;
+    }
+    footer {
+      text-align: center;
+      background: #333;
+      color: white;
+      padding: 1.5rem;
+      margin-top: 3rem;
+    }
+    iframe {
+      max-width: 100%;
+      border-radius: 12px;
+      margin-top: 1rem;
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <h1>Welcome to Spark a Story</h1>
-        <p>Empowering young writers to share their voices and unlock their creative potential.</p>
-    </header>
+  <header>
+    <h1>Spark a Story</h1>
+    <p>Helping kids bring their stories to life.</p>
+  </header>
 
-    <section class="about">
-        <h2>About Us</h2>
-        <p>Spark a Story is a nonprofit initiative focused on helping young writers unleash their creativity through workshops, mentorship, and publishing opportunities.</p>
-    </section>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#signup">Join Us</a>
+    <a href="#videos">Videos</a>
+  </nav>
 
-    <section class="contact">
-        <h2>Contact Us</h2>
-        <p>Have questions? Want to get involved? Reach out to us at:</p>
-        <p>Email: <a href="mailto:info@sparkastory.org">info@sparkastory.org</a></p>
-    </section>
+  <section id="about">
+    <h2>Our Mission</h2>
+    <p>
+      At Spark a Story, we believe every young voice deserves to be heard.  
+      Through workshops, online resources, and community support,  
+      we help kids share their ideas and transform them into powerful stories.
+    </p>
+  </section>
 
-    <footer>
-        <p>&copy; 2025 Spark a Story | All Rights Reserved</p>
-    </footer>
+  <section id="signup" class="cta">
+    <h2>Sign Up</h2>
+    <p>Join our mailing list to hear about workshops and new resources!</p>
+    
+    <!-- Embedded Google Form -->
+    <iframe 
+      src="https://docs.google.com/forms/d/e/1FAIpQLSdu68mp17PfvZHtJxOMgl0DQeVHqv9IGKClO14IQdpN7ggBbQ/viewform?embedded=true" 
+      width="640" 
+      height="1633" 
+      frameborder="0" 
+      marginheight="0" 
+      marginwidth="0">
+      Loading…
+    </iframe>
+  </section>
+
+  <section id="videos">
+    <h2>Our Videos</h2>
+    <p>Check out our latest content on YouTube:</p>
+    <!-- Replace the src with your actual intro video -->
+    <iframe width="560" height="315"
+      src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+      title="Spark a Story Intro Video"
+      frameborder="0"
+      allowfullscreen>
+    </iframe>
+  </section>
+
+  <footer>
+    <p>© 2025 Spark a Story | Built with ❤️ by young writers for young writers</p>
+  </footer>
 </body>
 </html>
